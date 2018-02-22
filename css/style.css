@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+html body {
+  width: 100%;
+  height: 100%;
+  background: url('http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/09/Maths-Wallpapers-HD.jpg');
+  font-family: 'Orbitron', cursive, sans-serif;
+}
+
+#calculator {
+  background: #EEE;
+  margin: 10vh auto 20px; auto;
+  height: 472.391px;
+  width: 407.797px;
+}
+
+.threeDbox {
+  border-radius: 20px;
+  border-width:1px;
+  border-style:solid;
+  border-bottom-color:#aaa;
+  border-right-color:#aaa;
+  border-top-color:#ddd;
+  border-left-color:#ddd;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+#header {
+  text-align: center;
+}
+
+#inputScreen {
+  margin: auto;
+  background: #7d8c73;
+  width: 90%;
+  height: 20%;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 6px;
+  padding: 0 10px 0 10px;
+}
+
+#mainScr {
+  font-family: 'Audiowide', cursive;
+  height: 70%;
+  font-size: 40px;
+  text-align: right;
+  overflow-x: auto;
+}
+
+#mainScr::-webkit-scrollbar { 
+  display: none;
+}
+
+#secScr {
+  height: 30%;
+  font-size: 18px;
+  text-align: right;
+  overflow-x: auto;
+}
+
+#secScr::-webkit-scrollbar { 
+  display: none;
+}
+
+#buttons {
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+button.css3button {
+	font-size: 18px;
+	color: #ffffff;
+	padding: 10px 20px;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  width: 20%;
+  height: 17%;
+	background: -moz-linear-gradient(
+		top,
+		#a3a3a3 0%,
+		#3b3b3b 50%,
+		#242424 50%,
+		#000000);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#a3a3a3),
+		color-stop(0.50, #3b3b3b),
+		color-stop(0.50, #242424),
+		to(#000000));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+}
+
+button.css3button:hover {
+  background: #111
+}
+
+button.css3button:active {
+  background-color: #333;
+  box-shadow: 0 3px #111;
+  transform: translateY(3px);
+}
+
+#AC, #CL, #equals {
+  background: -moz-linear-gradient(
+		top,
+		#e2aeae 0%,
+		#d67373 50%,
+		#c64f4f 50%,
+		#B33A3A);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#e2aeae),
+		color-stop(0.50, #d67373),
+		color-stop(0.50, #c64f4f),
+		to(#B33A3A));
+}
+
+#zero {
+  width: 45%;
+}
+
+#equals {
+  position: absolute;
+  margin-left: 18px;
+  margin-top: -55px;
+  height: 105px;
+  width: 72px;
+}
+
+.transparent{
+  background: rgba(50, 50, 50, .8);
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 30vw;
+  border-radius: 10px;
+  border-style: solid #FFF;
+}
+
+/* For mobile */
+@media only screen and (max-width: 600px) {
+  
+  #header h3 {
+    font-size: 20px;
+  }
+  #mainScr {
+    font-size: 36px;
+  }
+  .transparent {
+    width: 90vw;
+    padding: 5px 0 0 0;
+  }
+}
