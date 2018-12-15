@@ -1,6 +1,6 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/ali-farooqi/pen/MveKoy.
+View this at: https://alifarooqi.github.io/calculator/
 
- Self-Explanatory... Just a simple calculator, that can add, subtract, multiply and divide a bunch of numbers.
+Self-Explanatory... Just a simple calculator, that can add, subtract, multiply and divide a bunch of numbers. Coded purely in Javascript as a part of FreeCodeCamp Front-End Developer Challenge.
 
 Improvements to be made:
 1.  Design in px.
